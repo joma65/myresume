@@ -1,0 +1,35 @@
+.job, .edu, .award1 {
+    display: flex;
+    align-items: baseline;
+}
+
+#current, #prior, #older, #college, .cert {
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+}
+.name {
+    flex: 0 1 auto;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.picture {
+    flex: 0 1 auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    right: 2%;
+    gap: 5px;
+}
