@@ -9,9 +9,14 @@
     margin-right: 20px;
 }
 
+#years{
+    flex-shrink: 0;
+}
+
 .top {
     align-items: center;
     display: flex;
+    overflow: hidden;
 }
 .name {
     flex: 0 1 auto;
@@ -23,9 +28,18 @@
     transform: translateX(-50%);
 }
 
-.picture {
-    flex: 0 1 auto;
-    margin-right: auto;
+@media only screen and (max-width: 500px) {
+    .picture {
+        display:none
+    }
+    .name {
+        margin-top: 50px;
+        flex: 0 0 auto;
+        font-size: x-large;
+    }
+    #edu {
+        margin-top: 50px;
+    }
 }
 
 .nav {
