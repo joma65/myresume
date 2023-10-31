@@ -1,50 +1,58 @@
-.job, .edu, .award1 {
-    display: flex;
-    align-items: baseline;
+.job,
+.edu,
+.award1 {
+	display: flex;
+	align-items: baseline;
 }
 
-#current, #prior, #older, #college, .cert {
-    font-weight: bold;
-    font-size: larger;
-    margin-right: 20px;
+#current,
+#prior,
+#older,
+#college,
+.cert {
+	font-weight: bold;
+	font-size: larger;
+	margin-right: 20px;
 }
 
-#years{
-    flex-shrink: 0;
+#years {
+	flex-shrink: 0;
 }
 
 .top {
-    align-items: center;
-    display: flex;
-    overflow: hidden;
+	align-items: center;
+	display: flex;
+	overflow: hidden;
 }
 .name {
-    flex: 0 1 auto;
-    font-weight: bolder;
-    font-size: xx-large;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+	flex: 0 1 auto;
+	font-weight: bolder;
+	font-size: xx-large;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 500px) {
-    .picture {
-        display:none
-    }
-    .name {
-        margin-top: 50px;
-        flex: 0 0 auto;
-        font-size: x-large;
-    }
-    #edu {
-        margin-top: 50px;
-    }
+	.picture {
+		display: none;
+	}
+	.name {
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 50px;
+		font-size: x-large;
+	}
+	#edu {
+		margin-top: 50px;
+	}
 }
 
 .nav {
-    display: flex;
-    position: absolute;
-    right: 2%;
-    gap: 5px;
+	display: flex;
+	position: absolute;
+	right: 2%;
+	gap: 5px;
 }
