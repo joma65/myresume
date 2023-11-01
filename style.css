@@ -1,8 +1,7 @@
-.job,
-.edu,
-.award1 {
+.resume {
 	display: flex;
 	align-items: baseline;
+	flex-direction: column;
 }
 
 #current,
@@ -20,9 +19,8 @@
 }
 
 .top {
-	align-items: center;
 	display: flex;
-	overflow: hidden;
+	align-items: center;
 }
 .name {
 	flex: 0 1 auto;
@@ -36,14 +34,19 @@
 }
 
 @media only screen and (max-width: 500px) {
+	.top {
+		align-content: center;
+		column-gap: 30px;
+	}
 	.picture {
-		display: none;
+		height: 125px;
+		width: auto;
 	}
 	.name {
-		text-align: center;
-		margin: 0 auto;
-		margin-top: 50px;
 		font-size: x-large;
+		position: relative;
+		left: auto;
+		transform: translateX(0);
 	}
 	#edu {
 		margin-top: 50px;
@@ -52,7 +55,8 @@
 
 .nav {
 	display: flex;
-	position: absolute;
+	justify-content: right;
+	clear: both;
 	right: 2%;
 	gap: 5px;
 }
