@@ -6,9 +6,12 @@
 img {
 	width: 150px;
 }
+
 h2 {
 	text-align: center;
+	font-family: 'Caveat', cursive;
 }
+
 .top {
 	display: grid;
 	grid-template-columns: 150px auto 150px;
@@ -27,7 +30,9 @@ h2 {
 	gap: 10px;
 	font-size: 3rem;
 	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
 }
+
 .edu,
 .work,
 .awards {
@@ -48,6 +53,7 @@ h2 {
 	font-size: 1.2rem;
 	font-weight: 600;
 	margin-right: 30px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .nav {
