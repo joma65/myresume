@@ -11,7 +11,7 @@ h2 {
 }
 .top {
 	display: grid;
-	grid-template-columns: 150px auto;
+	grid-template-columns: 150px auto 150px;
 }
 
 .years {
